@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:rgb(255, 251, 236)
+}
+.header {
+    background-color: rgb(255, 196, 0);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav {
+    display: flex;
+}
+.header a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+#finance {
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+}
+.main{
+    display: flex;
+}
+#dashboard, #budget, #checkbooks, #money {
+    border: 3px solid rgb(243, 166, 1);
+    border-radius: 5px;
+    width:300px;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color:white;
+}
+#dashboard {
+    margin-left: 300px;
+}
+#info {
+    padding-left: 115px;
+}
